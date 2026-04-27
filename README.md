@@ -1,16 +1,38 @@
-# React + Vite
+# Digideck Mall Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is an interactive Digideck-style experience designed to showcase a modern retail destination. It focuses on cinematic storytelling, smooth navigation, and a premium user interface rather than a traditional multi-page website.
 
-Currently, two official plugins are available:
+## Features
+- Full-screen video hero section
+- Smooth scroll navigation
+- Interactive retail cards with hover effects
+- Animated sections using Framer Motion
+- Clean and premium UI design
+- Responsive layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
 
-## React Compiler
+## Design Approach
+This project was designed as a digital sales tool rather than a standard website. Each section builds a narrative:
+- Hero introduces the vision
+- Why section builds trust and scale
+- Retail & Luxury showcase experiences
+- Events acts as a call-to-action
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The focus was on creating an engaging and immersive user journey.
 
-## Expanding the ESLint configuration
+## AI Usage
+AI tools were used to:
+- Structure UI and layout
+- Suggest animation ideas
+- Debug and improve code
+- Enhance user experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+```bash
+npm install
+npm run dev
